@@ -8,7 +8,7 @@ updater:
     links:
         - hipache:redis
     volumes:
-        - config.sample.json:/app/updater.json
+        - config.json:/app/updater.json
         - /var/run/docker.sock:/app/docker.sock
 
 
