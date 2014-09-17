@@ -1,0 +1,7 @@
+[
+	{
+		"domain": "example.com",
+		"container": "test_1",
+		"port": 80
+	}
+]

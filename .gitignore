@@ -1,0 +1,4 @@
+src/
+/docker-hipache-updater
+*.swp
+config.json

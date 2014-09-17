@@ -1,0 +1,14 @@
+hipache:
+    image: hipache
+    ports:
+        - "80:80"
+
+updater:
+    build: .
+    links:
+        - hipache:redis
+    volumes:
+        - config.sample.json:/app/updater.json
+        - /var/run/docker.sock:/app/docker.sock
+
+
